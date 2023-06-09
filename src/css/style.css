@@ -20,6 +20,8 @@
 }
 
 .loader {
+    font-size: 21px;
+    font-weight: 400;
     margin-left: 10px;
     background-color: #ffffff00;
     color: white;
