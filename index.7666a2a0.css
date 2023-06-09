@@ -1,2 +1,0 @@
-.loader,.error{display:none}.breed-select{width:155px;margin:10px}.error{color:#dc143c}.cat-image{max-width:350px;height:auto;margin-left:10px;margin-right:20px}.loader{color:#fff;background-color:rgba(255,255,255,0);margin-left:10px;animation:textAnimation 1s linear infinite}@keyframes textAnimation{0%{color:red}50%{color:green}to{color:#00f}}.cat-info{display:flex}.cat-info-text{flex-grow:1}
-/*# sourceMappingURL=index.7666a2a0.css.map */
