@@ -1,0 +1,34 @@
+.loader,
+.error {
+    display: none;
+}
+
+.breed-select {
+    width: 155px;
+    margin: 10px 10px;
+}
+
+.error {
+    color: crimson;
+}
+
+.cat-image {
+    max-width: 350px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.loader {
+    margin-left: 10px;
+}
+
+.cat-info {
+    display: flex;
+    align-items: center;
+}
+
+
+.cat-info-text {
+    flex-grow: 1;
+}
