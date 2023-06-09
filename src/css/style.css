@@ -21,14 +21,38 @@
 
 .loader {
     margin-left: 10px;
-}
+    background-color: #ffffff00;
+    color: white;
+    animation: textAnimation 1s linear infinite;
+    }
+    
+    @keyframes textAnimation {
+        0% {
+            color: red;
+        }
+    
+        50% {
+            color: green;
+        }
+    
+        100% {
+            color: blue;
+        }
+    }
 
 .cat-info {
     display: flex;
-    align-items: center;
+    
 }
 
 
 .cat-info-text {
     flex-grow: 1;
 }
+
+
+
+
+
+
+
