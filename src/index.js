@@ -5,7 +5,7 @@ const loader = document.querySelector('p.loader');
 const error = document.getElementById('error');
 const catInfo = document.getElementById('cat-info');
 
-// Fetch breeds and populate select options
+
 fetchBreeds()
   .then((breeds) => {
     loader.style.display = 'none';
@@ -15,7 +15,7 @@ fetchBreeds()
       option.textContent = breed.name;
       breedSelect.appendChild(option);
     });
-    breedSelect.style.display = 'block'; // Показати випадне меню після завершення запиту
+    breedSelect.style.display = 'block'; 
   })
   .catch((err) => {
     loader.style.display = 'none';
@@ -23,7 +23,7 @@ fetchBreeds()
     console.error(err);
   });
 
-// Event listener for breed selection
+
 breedSelect.addEventListener('change', (event) => {
   const breedId = event.target.value;
   if (breedId) {
